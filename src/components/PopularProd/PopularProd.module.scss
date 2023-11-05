@@ -1,0 +1,37 @@
+.popularProdBlock {
+	margin-bottom: 50px;
+
+	.container {
+		max-width: 1280px;
+		margin: 0 auto;
+
+		.title {
+			padding-bottom: 25px;
+		}
+
+		.popularProdInner {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+      padding-bottom: 40px;
+		}
+
+		.smallItems {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+		}
+
+		.viewBtnBlock {
+			display: flex;
+			justify-content: center;
+
+			button {
+				padding: 16px 32px;
+				background-color: #f9f9f9;
+				color: #2a254b;
+				font-size: 16px;
+			}
+		}
+	}
+}

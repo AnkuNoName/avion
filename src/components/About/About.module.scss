@@ -1,0 +1,28 @@
+.about {
+  margin-bottom: 170px;
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    .aboutTitle {
+      text-align: center;
+      padding-bottom: 50px;
+    }
+
+    .itemContainer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 60px;
+
+      .itemImg {
+        padding-bottom: 15px;
+      }
+
+      .itemTitle {
+        padding-bottom: 8px;
+      }
+    }
+  }
+}

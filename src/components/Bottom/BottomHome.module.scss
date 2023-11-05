@@ -1,0 +1,59 @@
+.bottom {
+	background-color: #2a254b;
+
+	.container {
+		max-width: 1280px;
+		margin: 0 auto;
+
+		.bottomInner {
+			display: flex;
+			justify-content: space-between;
+			padding: 60px 0 50px 0;
+
+			.listsBlock {
+				display: flex;
+				gap: 110px;
+
+				h5 {
+					color: #fff;
+					padding-bottom: 12px;
+				}
+
+				li {
+					padding-bottom: 12px;
+				}
+
+				a {
+					color: #fff;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+
+			.inputBlock {
+        h5 {
+          color: #fff;
+          padding-bottom: 15px;
+        }
+
+				.inputContainer {
+					input {
+						background-color: rgba(255, 255, 255, 0.15);
+						padding: 16px 32px;
+						color: #fff;
+						height: 56px;
+            width: 510px;
+					}
+
+					button {
+						background-color: #fff;
+						height: 56px;
+						padding: 16px 32px;
+					}
+				}
+			}
+		}
+	}
+}

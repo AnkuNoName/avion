@@ -1,0 +1,35 @@
+.inner {
+	display: flex;
+	justify-content: space-between;
+
+	.textBlock {
+    max-width: 1280px;
+    margin: 0 auto;
+		padding: 70px 100px 50px 80px;
+
+		.title {
+			max-width: 510px;
+			padding-bottom: 25px;
+		}
+
+		.text {
+      padding-bottom: 195px;
+
+			p {
+				color: #505977;
+				max-width: 535px;
+			}
+
+			p:first-child {
+				padding-bottom: 25px;
+			}
+		}
+
+		.btn {
+			button {
+				padding: 16px 32px;
+				background-color: #f9f9f9;
+			}
+		}
+	}
+}

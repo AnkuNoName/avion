@@ -1,0 +1,65 @@
+@import '../../scss/variables.scss';
+
+.header {
+  .container {
+    max-width: 1390px;
+    margin: 0 auto;
+
+    .headerInner {
+      .headerTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+
+        .serch {
+          img {
+            transition: .3s;
+            cursor: pointer;
+
+            &:hover {
+              transform: scale(1.3);
+            }
+          }
+        }
+
+        .logo {
+          h3{
+            line-height: normal;
+          }
+        }
+
+        .navIcons {
+          display: flex;
+          gap: 16px;
+
+          .navIcon {
+            transition: .3s;
+
+            &:hover {
+              transform: scale(1.3);
+            }
+          }
+        }
+      }
+
+      .headerBottom {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+
+        .categorisMenu {
+          display: flex;
+          gap: 45px;
+          
+          a {
+            font-size: 16px;
+            color: #726E8D;
+          }
+        }
+      }
+    }
+  }
+}
+
