@@ -1,0 +1,84 @@
+.infoTop {
+	margin: 60px 0 60px 0;
+
+	@media (max-width: 820px) {
+		margin: 0 0 0 0;
+	}
+	.container {
+		max-width: 1280px;
+		margin: 0 auto;
+
+		.infoTopInner {
+			display: flex;
+			max-height: 584px;
+
+			.textInfoBlock {
+				display: flex;
+				flex-direction: column;
+				padding: 60px 100px 60px 60px;
+				color: #fff;
+
+				@media (max-width: 820px) {
+					padding: 40px 25px 25px 25px;
+				}
+
+				.infoBlockTitle {
+					padding-bottom: 40px;
+
+											
+					@media (max-width: 820px) {
+						padding-bottom: 80px;	
+					}
+
+					h2 {
+						color: #fff;
+						line-height: 140%;
+						max-width: 500px;
+					}
+				}
+
+				.viewBtnBlock {
+					padding-bottom: 200px;		
+
+					@media (max-width: 820px) {
+						order: 3;
+						padding-bottom: 0px;
+					}
+
+					button {
+						padding: 16px 32px;
+						background-color: rgba(249, 249, 249, 0.15);
+						color: #fff;
+						font-size: 16px;
+						height: 56px;
+
+						@media (max-width: 500px) {
+							width: 100%;	
+						}	
+					}
+				}
+
+				.textBlock {
+					font-size: 18px;
+					line-height: 150%;
+
+					@media (max-width: 820px) {
+						padding-bottom: 32px;	
+					}
+				}
+			}
+			
+			.imgInfoBlock {
+				img {
+					@media (max-width: 1200px) {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.textInfoBlock {
+			background-color: #2a254b;
+		}
+	}
+}

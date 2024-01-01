@@ -1,0 +1,66 @@
+.singUp {
+  padding: 65px 0;
+  background-color: #F9F9F9;
+
+  @media (max-width: 1350px) {
+    padding: 0 0;
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    .singUpInner {
+      text-align: center;
+      background-color: #FFF;
+      padding: 70px 0px 50px ;
+
+      @media (max-width: 1350px) {
+        padding: 50px 0px 40px;
+      }
+
+      @media (max-width: 600px) {
+        padding: 50px 25px 40px;
+      }
+
+      .singUpTitle {
+        padding-bottom: 15px;
+      }
+      
+      .singUpText {
+        max-width: 470px;
+        font-size: 16px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+      }
+
+      .singUpInput {
+        @media (max-width: 700px) {
+          display: flex;
+          justify-content: center;
+        }
+        
+        .singInputContainer  {
+          display: flex;
+          justify-content: center;
+
+          input {
+            background-color: #F9F9F9;
+            padding: 16px 32px 16px 32px;
+            height: 56px;
+            width: 100%;
+            max-width: 350px;
+            font-size: 16px;
+          }
+  
+          button {
+            padding: 16px 32px;
+            background-color: #2A254B;
+            color: #FFF;
+            height: 56px;
+            min-width: 120px;
+          }
+        }
+      }
+    }
+  }
+}

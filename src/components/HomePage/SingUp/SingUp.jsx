@@ -18,8 +18,10 @@ const SingUp = () => {
 					</div>
 
 					<div className={styles.singUpInput}>
-						<input type='email' placeholder='your@email.com' />
-						<button>Sign up</button>
+						<div className={styles.singInputContainer}>
+							<input type='email' placeholder='your@email.com' />
+							<button>Sign up</button>
+						</div>
 					</div>
 				</div>
 			</div>
