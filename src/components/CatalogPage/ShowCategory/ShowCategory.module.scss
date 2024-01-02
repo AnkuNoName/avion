@@ -1,0 +1,18 @@
+.categoryBlock {
+  background-image: url('/img/bg-ct.jpg');
+  background-size: cover;
+  background-position: center;
+
+  .container {
+    max-width: 1350px;
+    padding: 0 15px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 35px;
+
+    .categotyName {
+      font-size: 36px;
+      color: #FFF;
+    }
+  }
+}

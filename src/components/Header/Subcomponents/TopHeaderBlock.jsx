@@ -1,4 +1,5 @@
 import styles from "../Header.module.scss";
+import { Link } from 'react-router-dom'
 
 const TopHeaderBlock = () => {
   return (
@@ -14,7 +15,7 @@ const TopHeaderBlock = () => {
       </div>
 
       <div className={styles.logo}>
-        <h3>Avion</h3>
+        <Link to="/"><h3>Avion</h3></Link>
       </div>
 
       <div className={styles.navIcons}>

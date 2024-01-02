@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from '../Header.module.scss'
+import { useState } from 'react'
 
 const BottomHeaderBlock = () => {
+	const [startCategories, updateСategories] = useState(1);
+
 	const categories = [
-		'Plant pots',
+		'All products',
 		'Ceramics',
 		'Tables',
 		'Chairs',

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './SiteInfoTop.module.scss'
+import { Link } from 'react-router-dom'
 
 const SiteInfoTop = () => {
 	return (
@@ -12,7 +13,7 @@ const SiteInfoTop = () => {
 						</div>
 
 						<div className={styles.viewBtnBlock}>
-							<button>View collection</button>
+							<Link to="catalog.html"><button>View collection</button></Link>
 						</div>
 
 						<div className={styles.textBlock}>
